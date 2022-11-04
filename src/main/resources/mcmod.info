@@ -1,0 +1,16 @@
+[
+{
+  "modid": "tempestsnmf",
+  "name": "Tempest's No Mob Farming",
+  "description": "A fork of Laike_Endaril's NoMobFarming mod. Prevents mob farming by removing mob drops when not killed by a player or tamed mob.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Tempest051"],
+  "credits": "Laike_Endaril for the original mod.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
