@@ -16,8 +16,8 @@ import tempestsnmf.mod.util.Reference;
 public class TempestsNMF {
 
     @Mod.EventHandler
-    public static void preInit(FMLPreInitializationEvent event)
-    {
+    public static void preInit(FMLPreInitializationEvent event) {
+
         MinecraftForge.EVENT_BUS.register(TempestsNMF.class);
     }
 
@@ -34,9 +34,11 @@ public class TempestsNMF {
         //If a player killed it, drop items. Additional list of entities that cause drops (tameable mobs).
         DamageSource source = event.getSource();
         if (source.getImmediateSource() instanceof EntityPlayerMP) {
+
             return;
         }
         if (source.getImmediateSource() instanceof EntityWolf) {
+
             return;
         }
         Entity entity = source.getTrueSource();
